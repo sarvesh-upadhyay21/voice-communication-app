@@ -1,0 +1,16 @@
+/* src/components/VoiceChannel/VoiceChannel.css */
+.audio-room {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.audio-recorder, .audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 200px;
+}

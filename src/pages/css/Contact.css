@@ -1,0 +1,42 @@
+.contact-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-container h2 {
+    color: #333; /* Dark text color for heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+input,
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Space inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth border transition */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+}
+
+button {
+    background: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Space around button text */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}

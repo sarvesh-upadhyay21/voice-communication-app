@@ -1,0 +1,33 @@
+.services-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.services-container h2 {
+    color: #333; /* Dark text color for heading */
+}
+
+.services-container p {
+    font-size: 1.1em; /* Slightly larger text */
+    color: #555; /* Medium gray text */
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.service-item {
+    background: #6c757d; /* Gray background */
+    color: white; /* White text */
+    padding: 15px; /* Space around text */
+    margin: 10px 0; /* Space between items */
+    border-radius: 4px; /* Rounded corners for items */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.service-item:hover {
+    background: #5a6268; /* Darker gray on hover */
+}
